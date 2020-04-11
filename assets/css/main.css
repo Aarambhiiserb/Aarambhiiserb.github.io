@@ -1832,8 +1832,6 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease;
 		transition: border-color 0.2s ease;
 		background-color: transparent;
-		left: 80%;
-		top: 80%;
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
@@ -2558,7 +2556,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #49504e;
+					color: #953d75;
 				}
 
 /* Image */
@@ -2614,7 +2612,6 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
-		
 
 /* List */
 
@@ -2703,12 +2700,11 @@ input, select, textarea {
 			-webkit-flex-direction: column;
 			-ms-flex-direction: column;
 			flex-direction: column;
-			left: 0;
+			margin-left: 0;
 		}
 
 			ul.actions.stacked li {
 				padding: 1.3em 0 0 0;
-				right: 0em;
 			}
 
 				ul.actions.stacked li:first-child {
@@ -3000,7 +2996,7 @@ input, select, textarea {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
-		min-height: 2.5em;
+		min-height: 22.5em;
 	}
 
 		body.is-ie .spotlights > section {
@@ -3013,8 +3009,7 @@ input, select, textarea {
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 15em;
-			height: 10em;
+			width: 25em;
 		}
 
 			.spotlights > section > .image img {
@@ -3040,7 +3035,6 @@ input, select, textarea {
 
 		.spotlights > section > .content {
 			padding: 4em 5em 2em 5em ;
-			height: 10em;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3053,7 +3047,7 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 60em;
+			width: 50em;
 			-ms-flex: 1;
 		}
 
@@ -3111,7 +3105,7 @@ input, select, textarea {
 				}
 
 				.spotlights > section > .content {
-					width: 80%;
+					width: 100%;
 				}
 
 				.spotlights > section.inactive > .content > .inner,
@@ -3236,7 +3230,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.wrapper > .inner {
-					padding: 2em 2em 1em 2em ;
+					padding: 3em 2em 1em 2em ;
 				}
 
 			}
@@ -3268,12 +3262,8 @@ input, select, textarea {
 		.wrapper.style3-alt {
 			background-color: #953d75;
 		}
-		.wrapper.style5 {
-			background-color: #844e86;
-		}
 
 		.wrapper.fullscreen {
-			background-image: url();
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3308,7 +3298,6 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.wrapper.fullscreen {
-					
 					padding: 2em 0;
 					min-height: 0;
 				}
@@ -3320,7 +3309,6 @@ input, select, textarea {
 			}
 
 		.wrapper.fade-up > .inner {
-			background-image: image();
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
